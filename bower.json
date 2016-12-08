@@ -52,5 +52,21 @@
     "paper-material": "2.0-preview",
     "iron-flex-layout": "2.0-preview",
     "paper-styles": "2.0-preview"
+  },
+  "variants": {
+    "1.x": {
+      "dependencies": {
+        "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0",
+        "iron-checked-element-behavior": "PolymerElements/iron-checked-element-behavior#^1.0.0",
+        "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
+        "polymer": "Polymer/polymer#^1.1.0"
+      },
+      "devDependencies": {
+        "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0",
+        "paper-material": "PolymerElements/paper-material#^1.0.0",
+        "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+        "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+      }
+    }
   }
 }
